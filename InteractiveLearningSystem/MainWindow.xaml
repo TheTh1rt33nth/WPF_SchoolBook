@@ -1,0 +1,107 @@
+﻿<Window x:Class="InteractiveLearningSystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:uc="clr-namespace:InteractiveLearningSystem.MediaPlayer"
+        xmlns:local="clr-namespace:InteractiveLearningSystem"
+        mc:Ignorable="d"
+        Title="МПСН" Height="720" Width="1024">
+    <Window.Resources>
+        <ResourceDictionary>
+            <LinearGradientBrush x:Key="buttonStyleGradient"  EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White" Offset="0" />
+                <GradientStop Color="#D4D4D4" Offset="1" />
+            </LinearGradientBrush>
+            <Style x:Key="backgroundStyle" TargetType="Label">
+                <Setter Property="Background" Value="{StaticResource buttonStyleGradient}" />
+            </Style>
+            <Style x:Key="buttonStyle" TargetType="Button">
+                <Setter Property="FontFamily" Value="Arial"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="Padding" Value="8,4" />
+                <Setter Property="Margin" Value="0" />
+                <Setter Property="BorderThickness" Value="0" />
+                <Setter Property="Background" Value="{StaticResource buttonStyleGradient}" />
+            </Style>
+            <Style x:Key="mainPageStyle" TargetType="TextBlock">
+                <Setter Property="FontFamily" Value="Arial"/>
+                <Setter Property="FontSize" Value="26"/>
+                <Setter Property="Padding" Value="8,4" />
+                <Setter Property="Margin" Value="0" />
+            </Style>
+            <Style x:Key="contentPageStyle" TargetType="TextBlock">
+                <Setter Property="FontFamily" Value="Arial"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="Padding" Value="8,4" />
+                <Setter Property="Margin" Value="0" />
+            </Style>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid x:Name="maingr">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Button Name="b0" Grid.Column="0" Grid.Row="1" Background="#FFDF6C" Foreground="#654321" Click="Button_Click" Style="{StaticResource buttonStyle}">
+            <TextBlock><Bold>Главная</Bold></TextBlock>
+        </Button>
+        <Button Name="b1" Grid.Column="1" Grid.Row="1" Background="#007CC7" Foreground="#EEFBFB" Click="Button_Click" Style="{StaticResource buttonStyle}">
+            <TextBlock>Раздел 1</TextBlock>
+        </Button>
+        <Button Name="b2" Grid.Column="2" Grid.Row="1" Background="#007CC7" Foreground="#EEFBFB" Click="Button_Click" Style="{StaticResource buttonStyle}">
+            <TextBlock>Раздел 2</TextBlock>
+        </Button>
+        <Button Name="b3" Grid.Column="3" Grid.Row="1" Background="#007CC7" Foreground="#EEFBFB" Click="Button_Click" Style="{StaticResource buttonStyle}">
+            <TextBlock>Раздел 3</TextBlock>
+        </Button>
+        <Button Name="b4" Grid.Column="4" Grid.Row="1" Background="#007CC7" Foreground="#EEFBFB" Click="Button_Click" Style="{StaticResource buttonStyle}">
+            <TextBlock>Раздел 4</TextBlock>
+        </Button>
+        <Button Name="b5" Grid.Column="5" Grid.Row="1" Background="#007CC7" Foreground="#EEFBFB" Click="Button_Click" Style="{StaticResource buttonStyle}">
+            <TextBlock>Раздел 5</TextBlock>
+        </Button>
+        <Button Name="b6" Grid.Column="6" Grid.Row="1" Background="#007CC7" Foreground="#EEFBFB" Click="Button_Click" Style="{StaticResource buttonStyle}">
+            <TextBlock>Раздел 6</TextBlock>
+        </Button>
+        <Button Name="b7" Grid.Column="7" Grid.Row="1" Background="#007CC7" Foreground="#EEFBFB" Click="Button_Click" Style="{StaticResource buttonStyle}">
+            <TextBlock>Раздел 7</TextBlock>
+        </Button>
+        <Button Name="b8" Grid.Column="8" Grid.Row="1" Background="#007CC7" Foreground="#EEFBFB" Click="Button_Click" Style="{StaticResource buttonStyle}">
+            <TextBlock>Раздел 8</TextBlock>
+        </Button>
+        <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="9" Style="{StaticResource backgroundStyle}">
+            
+        </Label>
+        <Border Margin="0,0,0,0"
+            BorderBrush="Gray"
+            BorderThickness="0.5"
+            Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="7">
+            <Border.Effect>
+                <DropShadowEffect />
+            </Border.Effect>
+        </Border>
+        <ScrollViewer Name="scroll" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="7"  Background="White" >
+            <WrapPanel Name="cont" Orientation="Vertical" Margin="20" Width="auto">
+               
+            </WrapPanel>
+        </ScrollViewer>
+       
+        
+ 
+    </Grid>
+   
+</Window>

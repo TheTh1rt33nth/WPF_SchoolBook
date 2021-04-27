@@ -1,0 +1,17 @@
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\bin\Debug\InteractiveLearningSystem.exe.config
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\bin\Debug\InteractiveLearningSystem.exe
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\bin\Debug\InteractiveLearningSystem.pdb
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\obj\Debug\MainWindow.g.cs
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\obj\Debug\App.g.cs
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\obj\Debug\InteractiveLearningSystem_MarkupCompile.cache
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\obj\Debug\InteractiveLearningSystem_MarkupCompile.lref
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\obj\Debug\MainWindow.baml
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\obj\Debug\InteractiveLearningSystem.g.resources
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\obj\Debug\InteractiveLearningSystem.Properties.Resources.resources
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\obj\Debug\InteractiveLearningSystem.csproj.GenerateResource.cache
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\obj\Debug\InteractiveLearningSystem.exe
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\obj\Debug\InteractiveLearningSystem.pdb
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\obj\Debug\MediaPlayer\UserControl1.g.cs
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\obj\Debug\MediaPlayer\UserControl1.baml
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\obj\Debug\InteractiveLearningSystem_Content.g.cs
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\bin\Debug\Videos\0.mpg
