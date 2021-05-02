@@ -156,7 +156,7 @@ where T : DependencyObject
         {
             WrapPanel pnl = FindChild<WrapPanel>(this, "cont");
             pnl.Children.Clear();
-            if (ID != 8)
+            if (ID < 6)
             {
                 string pth = "Resources/" + ID.ToString() + ".txt";
                 StreamReader reader;
@@ -196,7 +196,7 @@ where T : DependencyObject
                 gr.RowDefinitions.Add(gridRow1);
                 gr.RowDefinitions.Add(gridRow2);
 
-                string s = "0.mpg";
+                string s = ID.ToString()+".mp4";
                 s = "Videos/" + s;
                 player.Source = new Uri(@s, UriKind.Relative);
                 player.Name = "player";

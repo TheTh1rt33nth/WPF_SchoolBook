@@ -3,10 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:uc="clr-namespace:InteractiveLearningSystem.MediaPlayer"
+        
         xmlns:local="clr-namespace:InteractiveLearningSystem"
         mc:Ignorable="d"
-        Title="МПСН" Height="720" Width="1024">
+        Title="МПСН" Height="1000" Width="1800">
     <Window.Resources>
         <ResourceDictionary>
             <LinearGradientBrush x:Key="buttonStyleGradient"  EndPoint="0.5,1" StartPoint="0.5,0">
@@ -36,6 +36,12 @@
                 <Setter Property="Padding" Value="8,4" />
                 <Setter Property="Margin" Value="0" />
             </Style>
+            <Style x:Key="btnTextStyle" TargetType="TextBlock">
+                <Setter Property="TextWrapping" Value="Wrap"/>
+                <Setter Property="FontFamily" Value="Arial"/>
+                <Setter Property="FontSize" Value="20"/>
+                
+            </Style>
         </ResourceDictionary>
     </Window.Resources>
     <Grid x:Name="maingr">
@@ -48,44 +54,40 @@
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
+            
             
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="30" />
-            <RowDefinition Height="50" />
+            <RowDefinition Height="75" />
+            <RowDefinition Height="75" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Button Name="b0" Grid.Column="0" Grid.Row="1" Background="#FFDF6C" Foreground="#654321" Click="Button_Click" Style="{StaticResource buttonStyle}">
-            <TextBlock><Bold>Главная</Bold></TextBlock>
+            <TextBlock Style="{StaticResource btnTextStyle}"><Bold>Главная</Bold></TextBlock>
         </Button>
         <Button Name="b1" Grid.Column="1" Grid.Row="1" Background="#007CC7" Foreground="#EEFBFB" Click="Button_Click" Style="{StaticResource buttonStyle}">
-            <TextBlock>Раздел 1</TextBlock>
+            <TextBlock Style="{StaticResource btnTextStyle}">Мультилатерация</TextBlock>
         </Button>
         <Button Name="b2" Grid.Column="2" Grid.Row="1" Background="#007CC7" Foreground="#EEFBFB" Click="Button_Click" Style="{StaticResource buttonStyle}">
-            <TextBlock>Раздел 2</TextBlock>
+            <TextBlock Style="{StaticResource btnTextStyle}">МПСН Альманах</TextBlock>
         </Button>
         <Button Name="b3" Grid.Column="3" Grid.Row="1" Background="#007CC7" Foreground="#EEFBFB" Click="Button_Click" Style="{StaticResource buttonStyle}">
-            <TextBlock>Раздел 3</TextBlock>
+            <TextBlock Style="{StaticResource btnTextStyle}">Технические характеристики</TextBlock>
         </Button>
         <Button Name="b4" Grid.Column="4" Grid.Row="1" Background="#007CC7" Foreground="#EEFBFB" Click="Button_Click" Style="{StaticResource buttonStyle}">
-            <TextBlock>Раздел 4</TextBlock>
+            <TextBlock Style="{StaticResource btnTextStyle}">Особенности</TextBlock>
         </Button>
         <Button Name="b5" Grid.Column="5" Grid.Row="1" Background="#007CC7" Foreground="#EEFBFB" Click="Button_Click" Style="{StaticResource buttonStyle}">
-            <TextBlock>Раздел 5</TextBlock>
+            <TextBlock Style="{StaticResource btnTextStyle}">Классификация</TextBlock>
         </Button>
         <Button Name="b6" Grid.Column="6" Grid.Row="1" Background="#007CC7" Foreground="#EEFBFB" Click="Button_Click" Style="{StaticResource buttonStyle}">
-            <TextBlock>Раздел 6</TextBlock>
+            <TextBlock Style="{StaticResource btnTextStyle}">Навигационные сервисы</TextBlock>
         </Button>
         <Button Name="b7" Grid.Column="7" Grid.Row="1" Background="#007CC7" Foreground="#EEFBFB" Click="Button_Click" Style="{StaticResource buttonStyle}">
-            <TextBlock>Раздел 7</TextBlock>
+            <TextBlock Style="{StaticResource btnTextStyle}">Мультилатерация: видео</TextBlock>
         </Button>
-        <Button Name="b8" Grid.Column="8" Grid.Row="1" Background="#007CC7" Foreground="#EEFBFB" Click="Button_Click" Style="{StaticResource buttonStyle}">
-            <TextBlock>Раздел 8</TextBlock>
-        </Button>
-        <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="9" Style="{StaticResource backgroundStyle}">
-            
-        </Label>
+        <Image Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="8" Source="Images/body.jpg" Stretch="Fill"></Image>
+        <Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="8" Source="Images/header.jpg" Stretch="Fill"></Image>
         <Border Margin="0,0,0,0"
             BorderBrush="Gray"
             BorderThickness="0.5"
@@ -94,7 +96,7 @@
                 <DropShadowEffect />
             </Border.Effect>
         </Border>
-        <ScrollViewer Name="scroll" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="7"  Background="White" >
+        <ScrollViewer Name="scroll" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="6"  Background="White" >
             <WrapPanel Name="cont" Orientation="Vertical" Margin="20" Width="auto">
                
             </WrapPanel>

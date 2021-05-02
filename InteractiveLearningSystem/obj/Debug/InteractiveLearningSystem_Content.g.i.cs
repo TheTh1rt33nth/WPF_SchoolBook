@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videos/0.mpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videos/6.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videos/7.mp4")]
 
 
