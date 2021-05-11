@@ -15,3 +15,8 @@ D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\obj\Debug\In
 D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\bin\Debug\Videos\6.mp4
 D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\bin\Debug\Videos\7.mp4
 D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\obj\Debug\InteractiveLearningSystem_Content.g.cs
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\bin\Debug\InteractiveLearningSystem.exe.manifest
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\bin\Debug\InteractiveLearningSystem.application
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\obj\Debug\InteractiveLearningSystem.TrustInfo.xml
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\obj\Debug\InteractiveLearningSystem.exe.manifest
+D:\source\repos\InteractiveLearningSystem\InteractiveLearningSystem\obj\Debug\InteractiveLearningSystem.application

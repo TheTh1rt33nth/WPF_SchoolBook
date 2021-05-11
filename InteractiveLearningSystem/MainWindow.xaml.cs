@@ -76,6 +76,7 @@ where T : DependencyObject
             largetext.Text = s;
             largetext.Text += "\n";
             largetext.FontWeight = FontWeights.Bold;
+            if (ID!=0)
             panel.Children.Add(largetext);
 
             s = reader.ReadLine();
